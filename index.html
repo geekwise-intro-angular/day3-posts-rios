@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="my_app">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div ng-controller="my_app_ctrl">
+		<h1 class="welcome">{{welcome}}</h1>
+		<ul ng-repeat="(key, item) in items">
+			<li>{{item}}</li><li>{{key}}</li>
+		</ul>
+	</div>
+	<script src="angular.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
